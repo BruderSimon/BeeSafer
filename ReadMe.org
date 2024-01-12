@@ -1,0 +1,19 @@
+* BeeSafer
+The sucessor of the very popular game BeeSafe.
+Now in 3D!
+
+** Third Party Resources
+- The Bee Model:
+  https://www.cgtrader.com/free-3d-models/animals/insect/bee-cartoon-3d-model
+
+- GLFW 3.3.8 https://www.glfw.org/
+
+- GLEW 2.2.0 https://github.com/nigels-com/glew
+
+- GLM 0.9.9.8 https://github.com/g-truc/glm
+
+# - stdb_image.h https://github.com/nothings/stb
+
+
+** How to Compile
+
