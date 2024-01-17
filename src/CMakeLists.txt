@@ -70,6 +70,8 @@ add_executable(BeeSafer
   common/texture.hpp
   common/objloader.hpp
   common/objloader.cpp
+  common/controls.cpp
+  common/controls.hpp
   shader/SimpleFragmentshader.fragmentshader
   shader/SimpleVertexshader.vertexshader
 )
