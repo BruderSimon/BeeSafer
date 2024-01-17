@@ -58,11 +58,8 @@ set(ALL_LIBS
 # Add Executeable Here:
 
 add_executable(BeeSafer
-  main.cpp
-  Window.cpp
-  Window.hpp
-  game.cpp
-  game.hpp
+  playground.cpp
+  playground.h
   RenderingObject.cpp
   RenderingObject.h
   common/shader.cpp
@@ -71,6 +68,8 @@ add_executable(BeeSafer
   common/parse_stl.cpp
   common/texture.cpp
   common/texture.hpp
+  common/objloader.hpp
+  common/objloader.cpp
   shader/SimpleFragmentshader.fragmentshader
   shader/SimpleVertexshader.vertexshader
 )
