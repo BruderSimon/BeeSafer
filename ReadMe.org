@@ -16,4 +16,27 @@ Now in 3D!
 
 
 ** How to Compile
+If you are using Visual Studio:
+Follow the Instruction given in the Lecture (Setting up the OpenGL template - step by step)
+Then you should be good to go!
 
+If you are using another Compiler/Generator (like MinGW Makefiles)
+I expect that you know what to do. Also the Executable will be copied to
+the src directory. There you can execute it.
+
+The Executable searchers the shader and resource directory in the same
+directory where it is located.  So for example:
+#+name: tree
+#+begin_src ditaa
+  BeeSafe      
+  |
+  +--build
+  |   
+  +--src   	   
+  |  +--shader	   
+  |  |  +--SimpleVertexshader.vertexshader
+  |  |  +--SimpleFragmentshader.fragmentshader
+	+--Fragmentshader.fragment
+  |  +-- res  	   
+  |  |    +--Bee.stl 
+#+end_src	 
